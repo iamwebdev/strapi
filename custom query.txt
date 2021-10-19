@@ -1,0 +1,6 @@
+Case : Api model :
+
+const cars = await strapi.query('car').find({});
+Case : Plugin model :
+
+const cars = await strapi.query('car', 'plugin_name').find({});
